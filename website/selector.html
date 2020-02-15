@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>随机取人</title>
+    <link rel="stylesheet" href="dist/style/weui.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="dist/weui.js"></script>
+</head>
+
+<body oncontextmenu=self.event.returnValue=false>
+<div class="page">
+    <div class="weui-form">
+        <div class="weui-form__text-area">
+            <h2 class="weui-form__title">选择随机列表</h2>
+        </div>
+        <div class="weui-form__control-area">
+            <div class="weui-cells__group weui-cells__group_form">
+                <div class="weui-cells weui-cells_radio" id="listcontainer">
+
+                </div>
+            </div>
+        </div>
+        <div class="weui-form__opr-area">
+            <a class="weui-btn weui-btn_primary" href="javascript:ok()" id="showTooltips">确定</a>
+        </div>
+    </div>
+    <div id="js_toast" style="display: none;">
+        <div class="weui-mask_transparent"></div>
+        <div class="weui-toast">
+            <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+            <p class="weui-toast__content">已完成</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    var selectedid = '';
+    var list = [];
+    var seid;
+    var loading = weui.loading('正在载入列表');
+    $.ajax({
+        type: "post",
+        url: "https://server.buaaer.club/getlistname/",
+        async: false,
+        success: function (res) {
+            list = res.array;
+        },
+        error: function (res) {
+            console.log(res);
+        },
+        complete: function (res) {
+        }
+    });
+    document.getElementById("listcontainer").innerHTML =
+        '<label class="weui-cell weui-cell_active weui-check__label" for="x11"><div class="weui-cell__bd"><p>197612全体名单</p></div><div class="weui-cell__ft"><input type="radio" class="weui-check" name="radio" id="x11" onclick="select1(1)" /><span class="weui-icon-checked"></span></div></label>';
+    for (var i = 0; i < list.length; i++) {
+        document.getElementById("listcontainer").innerHTML += '<label class="weui-cell weui-cell_active weui-check__label" for="s' + list[i][0] + '"><div class="weui-cell__bd"><p>' +
+            list[i][1] + '</p></div><div class="weui-cell__ft"><input type="radio" class="weui-check" name="radio" id="s' + list[i][0] + '" onclick="select2(' + list[i][0] +
+            ')"/><span class="weui-icon-checked"></span></div></label>';
+    }
+    document.getElementById("listcontainer").innerHTML += '<a href="javascript:openinput()" class="weui-cell weui-cell_active weui-cell_link"><div class="weui-cell__bd">添加更多</div></a>';
+    if (window.location.href.split('?')[1] == '01') {
+        document.getElementById('x11').checked = true;
+        selectedid = '01'
+    } else if (window.location.href.split('?')[1].startsWith('id=')) {
+        var id = window.location.href.split('?')[1].split('id=')[1];
+        selectedid = 'id=' +id;
+        if (Number(window.location.href.split('?')[1].split('id=')[1]) > list.length) {
+            window.open("index.html", '_self');
+        }
+        document.getElementById('x11').checked = false;
+        document.getElementById('s' + id).checked = true;
+    } else {
+        window.open("index.html", '_self');
+    }
+    loading.hide();
+
+    function select1(e) {
+        selectedid = '0' + e;
+        return;
+    }
+
+    function select2(e) {
+        selectedid = 'id=' + e;
+        return;
+    }
+
+    function ok() {
+        window.open("index.html?" + selectedid, '_self');
+    }
+    function openinput() {
+        window.open('input.html?'+window.location.href.split('?')[1],'_self');
+    }
+</script>
+<script Language="JavaScript">
+    function click() {
+        if (event.button==2||event.button==3) {
+            weui.alert('复制用Control+C哦')
+        }
+    }
+    //引号中提示可自定义
+    document.onmousedown=click
+</script>
+
+</body>
+</html>

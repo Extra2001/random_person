@@ -1,0 +1,335 @@
+CommandError: "0.0.0.0:5:8000" is not a valid port number or address:port pair.
+Watching for file changes with StatReloader
+[13/Feb/2020 05:33:13] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /favicon.ico
+[13/Feb/2020 05:33:15] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 05:33:16] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 05:33:24] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /
+[13/Feb/2020 05:33:27] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 05:33:27] "POST /getlistname/ HTTP/1.1" 200 13
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 13, 2020 - 05:32:49
+Django version 3.0.3, using settings 'HelloWorld.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[13/Feb/2020 05:33:52] "POST /getlistname/ HTTP/1.1" 200 13
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 13, 2020 - 05:33:50
+Django version 3.0.3, using settings 'HelloWorld.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[13/Feb/2020 05:34:56] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:36:00] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:36:09] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:38:10] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:38:13] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:38:21] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:44:30] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:48:11] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:49:04] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:49:06] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:49:53] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 05:49:57] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /favicon.ico
+[13/Feb/2020 05:50:27] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 05:50:34] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 05:50:46] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 05:53:52] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 06:04:54] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /favicon.ico
+[13/Feb/2020 06:05:06] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /favicon.ico
+[13/Feb/2020 06:15:21] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 06:15:24] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 06:15:57] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 06:32:27] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 06:39:43] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 06:41:46] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 06:41:49] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 06:43:01] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 06:43:23] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 06:43:28] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 06:52:37] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 07:57:46] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /
+[13/Feb/2020 07:59:21] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 07:59:41] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /
+[13/Feb/2020 08:00:54] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 08:22:17] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 08:22:17] "GET / HTTP/1.1" 404 2251
+Not Found: /favicon.ico
+[13/Feb/2020 08:24:35] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 08:24:38] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 08:24:44] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 12:56:25] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 12:57:21] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /
+[13/Feb/2020 13:36:35] "GET / HTTP/1.1" 404 2257
+[13/Feb/2020 13:40:22] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 13:40:24] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 13:40:26] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /favicon.ico
+[13/Feb/2020 13:40:35] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 13:40:40] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 13:40:50] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /
+[13/Feb/2020 13:40:51] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 13:43:22] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 14:04:51] "POST /getlistname/ HTTP/1.1" 200 13
+Not Found: /
+[13/Feb/2020 14:05:19] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 14:05:52] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 14:07:40] "POST /getlistname/ HTTP/1.1" 200 13
+[13/Feb/2020 14:08:12] "POST /filei/ HTTP/1.1" 200 9
+[13/Feb/2020 14:08:13] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:08:17] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:08:20] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:08:23] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:08:46] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:08:48] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:08:51] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:09:35] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:09:45] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:10:28] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:10:30] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:10:43] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:10:47] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:10:50] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:10:51] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:11:37] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:11:55] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:12:01] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:14:35] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:14:42] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:14:43] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:14:48] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:14:50] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:14:52] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:16:02] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:16:05] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:16:07] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:16:09] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:16:15] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:16:23] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:16:26] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:16:29] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:16:49] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:16:51] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:17:30] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:17:34] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:17:43] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:17:49] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:17:57] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:17:59] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:18:06] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:18:09] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:18:45] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:18:49] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:19:15] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:19:19] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:19:22] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:19:28] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:19:34] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:19:37] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:19:40] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 14:19:41] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 14:20:09] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[13/Feb/2020 14:30:05] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 14:30:11] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 14:30:34] "GET / HTTP/1.1" 404 2251
+Not Found: /favicon.ico
+[13/Feb/2020 14:58:12] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 14:58:18] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[13/Feb/2020 14:59:28] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 15:36:24] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 15:36:30] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 15:36:34] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 15:36:38] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 15:39:28] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[13/Feb/2020 15:39:30] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 15:39:31] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 15:39:32] "POST /getlist/ HTTP/1.1" 200 226
+Not Found: /
+[13/Feb/2020 15:40:06] "GET / HTTP/1.1" 404 2251
+[13/Feb/2020 15:40:32] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 15:42:06] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 15:42:08] "POST /getlist/ HTTP/1.1" 200 226
+[13/Feb/2020 15:42:18] "POST /getlistname/ HTTP/1.1" 200 44
+[13/Feb/2020 15:42:30] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[13/Feb/2020 16:32:24] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[13/Feb/2020 16:32:27] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[14/Feb/2020 04:11:26] "GET / HTTP/1.1" 404 2257
+Not Found: /api/v1/pods
+[14/Feb/2020 04:27:48] "GET /api/v1/pods HTTP/1.1" 404 2302
+Not Found: /.git/config
+[14/Feb/2020 04:27:48] "GET /.git/config HTTP/1.1" 404 2302
+Not Found: /
+[14/Feb/2020 04:27:48] "GET / HTTP/1.1" 404 2251
+Not Found: /app/.env
+[14/Feb/2020 04:27:48] "GET /app/.env HTTP/1.1" 404 2293
+Not Found: /admin-app/.env
+[14/Feb/2020 04:27:48] "GET /admin-app/.env HTTP/1.1" 404 2311
+Not Found: /.env
+[14/Feb/2020 04:27:48] "GET /.env HTTP/1.1" 404 2281
+Not Found: /v2/_catalog
+[14/Feb/2020 04:27:48] "GET /v2/_catalog HTTP/1.1" 404 2302
+Not Found: /production/.env
+Not Found: /api/.env
+Not Found: /apps/.env
+[14/Feb/2020 04:27:48] "GET /production/.env HTTP/1.1" 404 2314
+Not Found: /core/.env
+[14/Feb/2020 04:27:48] "GET /api/.env HTTP/1.1" 404 2293
+[14/Feb/2020 04:27:48] "GET /apps/.env HTTP/1.1" 404 2296
+[14/Feb/2020 04:27:48] "GET /core/.env HTTP/1.1" 404 2296
+Not Found: /cp/.env
+[14/Feb/2020 04:27:48] "GET /cp/.env HTTP/1.1" 404 2290
+Not Found: /development/.env
+[14/Feb/2020 04:27:48] "GET /development/.env HTTP/1.1" 404 2317
+Not Found: /docker/.env
+[14/Feb/2020 04:27:48] "GET /docker/.env HTTP/1.1" 404 2302
+Not Found: /local/.env
+[14/Feb/2020 04:27:48] "GET /local/.env HTTP/1.1" 404 2299
+Not Found: /private/.env
+[14/Feb/2020 04:27:48] "GET /private/.env HTTP/1.1" 404 2305
+Not Found: /rest/.env
+Not Found: /shared/.env
+[14/Feb/2020 04:27:49] "GET /rest/.env HTTP/1.1" 404 2296
+[14/Feb/2020 04:27:49] "GET /shared/.env HTTP/1.1" 404 2302
+Not Found: /sources/.env
+[14/Feb/2020 04:27:49] "GET /sources/.env HTTP/1.1" 404 2305
+Not Found: /system/.env
+[14/Feb/2020 04:27:50] "GET /system/.env HTTP/1.1" 404 2302
+[14/Feb/2020 10:04:59] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[14/Feb/2020 10:05:00] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[14/Feb/2020 10:05:02] "GET / HTTP/1.1" 404 2251
+[14/Feb/2020 10:05:07] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 10:05:08] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 10:05:18] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[14/Feb/2020 10:05:21] "GET /favicon.ico HTTP/1.1" 404 2302
+[14/Feb/2020 10:05:35] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /
+[14/Feb/2020 10:05:35] "GET / HTTP/1.1" 404 2251
+Not Found: /favicon.ico
+[14/Feb/2020 10:31:27] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[14/Feb/2020 10:31:28] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[14/Feb/2020 10:31:50] "GET / HTTP/1.1" 404 2251
+[14/Feb/2020 12:37:47] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[14/Feb/2020 12:38:03] "GET /favicon.ico HTTP/1.1" 404 2302
+Not Found: /
+[14/Feb/2020 12:39:03] "GET / HTTP/1.1" 404 2251
+Not Found: /
+[14/Feb/2020 12:40:01] "GET / HTTP/1.1" 404 2251
+/root/HelloWorld/HelloWorld/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 13, 2020 - 05:34:49
+Django version 3.0.3, using settings 'HelloWorld.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[14/Feb/2020 13:40:52] "POST /getlistname/ HTTP/1.1" 200 110
+[14/Feb/2020 13:41:00] "POST /getlistname/ HTTP/1.1" 200 110
+[14/Feb/2020 13:41:43] "POST /getlistname/ HTTP/1.1" 200 110
+[14/Feb/2020 13:41:45] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 13:42:10] "POST /deletefile/ HTTP/1.1" 200 17
+[14/Feb/2020 13:42:10] "POST /getlistname/ HTTP/1.1" 200 77
+[14/Feb/2020 13:42:12] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 13:42:35] "POST /getlistname/ HTTP/1.1" 200 77
+[14/Feb/2020 13:42:56] "POST /getlistname/ HTTP/1.1" 200 110
+[14/Feb/2020 13:43:00] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 13:43:04] "POST /deletefile/ HTTP/1.1" 200 17
+[14/Feb/2020 13:43:05] "POST /getlistname/ HTTP/1.1" 200 77
+[14/Feb/2020 13:44:47] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 13:45:00] "POST /deletefile/ HTTP/1.1" 200 17
+[14/Feb/2020 13:45:00] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:45:08] "POST /getlist/ HTTP/1.1" 200 226
+Not Found: /favicon.ico
+[14/Feb/2020 13:45:09] "GET /favicon.ico HTTP/1.1" 404 2413
+[14/Feb/2020 13:45:11] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /
+[14/Feb/2020 13:45:12] "GET / HTTP/1.1" 404 2362
+[14/Feb/2020 13:45:14] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /
+[14/Feb/2020 13:45:27] "GET / HTTP/1.1" 404 2362
+[14/Feb/2020 13:46:06] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:46:09] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:46:12] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 13:49:51] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:50:40] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:50:44] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 13:50:53] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:50:56] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:52:08] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:52:42] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 13:52:44] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:52:50] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:53:10] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 13:53:11] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 13:58:16] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[14/Feb/2020 13:58:19] "GET /favicon.ico HTTP/1.1" 404 2413
+Not Found: /
+[14/Feb/2020 13:58:22] "GET / HTTP/1.1" 404 2362
+[14/Feb/2020 13:58:31] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /
+[14/Feb/2020 13:58:37] "GET / HTTP/1.1" 404 2362
+[14/Feb/2020 13:59:01] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 14:00:52] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 14:00:57] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 14:01:17] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 14:01:25] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 14:01:26] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 14:01:30] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 14:01:34] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 14:01:41] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 14:01:56] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 14:01:58] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 15:51:36] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[14/Feb/2020 15:51:44] "GET /favicon.ico HTTP/1.1" 404 2413
+Not Found: /
+[14/Feb/2020 15:51:46] "GET / HTTP/1.1" 404 2362
+[14/Feb/2020 15:51:46] "POST /getlistname/ HTTP/1.1" 200 44
+[14/Feb/2020 15:51:48] "POST /getlist/ HTTP/1.1" 200 226
+[14/Feb/2020 15:51:51] "POST /getlistname/ HTTP/1.1" 200 44
+Not Found: /favicon.ico
+[14/Feb/2020 15:51:52] "GET /favicon.ico HTTP/1.1" 404 2413
+Not Found: /
+[14/Feb/2020 15:52:03] "GET / HTTP/1.1" 404 2362
