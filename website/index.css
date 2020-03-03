@@ -37,3 +37,8 @@
 .pickertext{
 	font-size:17px!important;
 }
+.animate {
+  max-height: 0;
+  transition: max-height 250ms ease;
+  overflow: hidden;
+}

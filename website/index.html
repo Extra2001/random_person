@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
     <title>随机取人</title>
     <link rel="stylesheet" href="dist/style/weui.css"/>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css?v=1.0"/>
     <script src="dist/example/zepto.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
     <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
@@ -15,7 +15,7 @@
 
 <body oncontextmenu=self.event.returnValue=false>
 <div class="page">
-    <div class="page__hd">
+    <div class="page__hd tohide" id="titletohide">
         <h1 class="page__title">实用工具：随机取人</h1>
     </div>
     <div class="page__bd">
@@ -50,7 +50,7 @@
                     </label>
                 </div>
             </div>
-            <div id="isGirl" hidden="hidden"><a class="weui-cell  weui-cell_access" href="javascript:showPickerGirl();">
+            <div id="isGirl" class="animate" ><a class="weui-cell  weui-cell_access" href="javascript:showPickerGirl();">
                 <div class="weui-cell__bd">
                     <p>每组女生数量</p>
                 </div>
@@ -94,6 +94,9 @@
     <br/>
 </div>
 <script>
+if(navigator.userAgent.indexOf("Html5Plus") > -1){  
+    document.getElementById('titletohide').style.display = "none";//隐藏下载banner  
+}
     const names = ["周泽西", "边佳茜", "孙舟", "楚怡淳", "蒋韵澜", "武迪", "顾祚亚", "程浩宸", "张浩然",
         "孙宁", "荆煦添", "王鼎昊", "孙中大", "吴允瀚", "金驰", "王永岩", "刘志远", "王楷清", "张洪涛",
         "蔡贝林", "纪俊超", "林奕睿", "李东泽", "姚登宇", "袁京昌", "杨子灏", "曾显俊", "王亚荣", "李元龙"];
@@ -145,7 +148,7 @@
         label: '10',
         value: 9
     }];
-    var loading = weui.loading('正在载入数据');
+    funTransitionHeight(document.getElementById('show'),1);
     files = ['197612全体名单'];
     if (window.location.href.split('?')[1] == undefined) {
         document.getElementById('selectedfile').innerHTML = files[0];
@@ -187,7 +190,6 @@
     }
     document.getElementById('selectedgroupnum').innerHTML = selectedgroupnum;
     document.getElementById('selectednum').innerHTML = selectednum;
-    loading.hide();
     function openselector() {
         window.open("selector.html?" + selectedid, '_self');
     }
@@ -232,6 +234,7 @@
         selistg = [];
         selistb = [];
         document.getElementById('show').innerHTML = '';
+        funTransitionHeight(document.getElementById('show'),250);
     }
 
     function showPickerGroup() {
@@ -288,9 +291,11 @@
     function isGirl() {
         document.getElementById('selectedgirlnum').innerHTML = girlnum;
         if (document.getElementById('switchGirl').checked) {
-            document.getElementById('isGirl').hidden = false;
+            //document.getElementById('isGirl').hidden = false;
+            document.getElementById('isGirl').style = "max-height: 56px;";
         } else {
-            document.getElementById('isGirl').hidden = true;
+            //document.getElementById('isGirl').hidden = true;
+            document.getElementById('isGirl').style = "max-height: 0;";
         }
     }
 
@@ -346,8 +351,24 @@
         grocount += 1;
         var s = '<div class="weui-form-preview"><div class="weui-form-preview__hd"><div class="weui-form-preview__item"><label class="weui-form-preview__label">抽取组数</label><em class="weui-form-preview__value">第' + grocount + '组</em></div></div><div class="weui-form-preview__bd"><div class="weui-form-preview__item"><label class="weui-form-preview__label">内容</label><span class="weui-form-preview__value">' + onelist + '</span></div></div></div>';
         document.getElementById('show').innerHTML += s;
+        funTransitionHeight(document.getElementById('show'), 250);
     }
 
+ function funTransitionHeight(element, time) { // time, 数值，可缺省
+    if (typeof window.getComputedStyle == "undefined") return;
+
+    var height = window.getComputedStyle(element).height;
+
+    element.style.transition = "none";    // 本行2015-05-20新增，mac Safari下，貌似auto也会触发transition, 故要none下~
+
+    element.style.height = "auto";
+    var targetHeight = window.getComputedStyle(element).height;
+    element.style.height = height;
+    element.offsetWidth = element.offsetWidth;
+    element.offsetWidth;
+    if (time) element.style.transition = "height "+ time +"ms";
+    element.style.height = targetHeight;
+}
     function girlSelectOne() {
         var onelist = "";
         if (document.getElementById('switchCP').checked) {
@@ -431,6 +452,7 @@
         grocount += 1;
         var s = '<div class="weui-form-preview"><div class="weui-form-preview__hd"><div class="weui-form-preview__item"><label class="weui-form-preview__label">抽取组数</label><em class="weui-form-preview__value">第' + grocount + '组</em></div></div><div class="weui-form-preview__bd"><div class="weui-form-preview__item"><label class="weui-form-preview__label">内容</label><span class="weui-form-preview__value">' + onelist + '</span></div></div></div>';
         document.getElementById('show').innerHTML += s;
+        funTransitionHeight(document.getElementById('show'),250);
     }
 
 

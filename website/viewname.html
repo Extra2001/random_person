@@ -34,7 +34,6 @@
 </div>
 </div>
 <script>
-    var loading = weui.loading('正在载入数据');
     if (window.location.href.split('?')[1] == undefined){
         turnback();
     } else if (window.location.href.split('?')[1].startsWith('id=')) {
@@ -55,7 +54,6 @@
                         '项</p></div><div class="weui-cell__ft">' + res.list[i] + '</div></div>';
                 }
                 document.getElementById('title1').innerHTML = res.name;
-                loading.hide();
             },
             error: function (res) {
                 console.log(res);

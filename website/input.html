@@ -25,7 +25,7 @@
                     <div class="weui-cell ">
                         <div class="weui-cell__bd">
                             <textarea name="namelist" id="jobdecribe" rows=3 cols=40
-                                      onfocus="window.activeobj=this;this.clock=setInterval(function(){activeobj.style.height=activeobj.scrollHeight+'px';},200);"
+                                      onfocus="window.activeobj=this;this.clock=setInterval(function(){activeobj.style.height=activeobj.scrollHeight+'px';},200);funTransitionHeight(document.getElementById('jobdecribe'), 250);"
                                       onblur="clearInterval(this.clock);" class="weui-textarea"
                                       placeholder="输入名单列表，每行一条元素。"></textarea>
                         </div>
@@ -53,6 +53,7 @@
 
 
 <script>
+    funTransitionHeight(document.getElementById('jobdecribe'), 250)
     var btn = document.getElementById('showTooltips');
     btn.onclick = function () {
         let namename = document.getElementById('js_input').value;
@@ -116,6 +117,21 @@
             }]
         });
 
+    }
+    function funTransitionHeight(element, time) { // time, 数值，可缺省
+        if (typeof window.getComputedStyle == "undefined") return;
+
+        var height = window.getComputedStyle(element).height;
+
+        element.style.transition = "none";    // 本行2015-05-20新增，mac Safari下，貌似auto也会触发transition, 故要none下~
+
+        element.style.height = "auto";
+        var targetHeight = window.getComputedStyle(element).height;
+        element.style.height = height;
+        element.offsetWidth = element.offsetWidth;
+        element.offsetWidth;
+        if (time) element.style.transition = "height "+ time +"ms";
+        element.style.height = targetHeight;
     }
 </script>
 <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>

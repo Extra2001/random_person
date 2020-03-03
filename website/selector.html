@@ -41,7 +41,6 @@
     var selectedid = '';
     var list = [];
     var seid;
-    var loading = weui.loading('正在载入列表');
     $.ajax({
         type: "post",
         url: "https://server.buaaer.club/getlistname/",
@@ -77,7 +76,6 @@
     } else {
         window.open("index.html", '_self');
     }
-    loading.hide();
 
     function select1(e) {
         selectedid = '0' + e;
