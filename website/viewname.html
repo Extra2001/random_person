@@ -39,7 +39,7 @@
     } else if (window.location.href.split('?')[1].startsWith('id=')) {
         $.ajax({
             type: "post",
-            url: "https://server.buaaer.club/getlist/",
+            url: "http://39.101.190.160:8000/getlist/",
             async: false,
             dataType: "json",
             data: {
@@ -83,7 +83,7 @@
                     weui.loading('正在删除');
                     $.ajax({
                         type: "post",
-                        url: "https://server.buaaer.club/deletefile/",
+                        url: "http://39.101.190.160:8000/deletefile/",
                         async: false,
                         dataType: "json",
                         data: {
